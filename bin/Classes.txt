@@ -1,0 +1,43 @@
+Classes:
+--------
+
+AI
+•	Generates ships on the board (based on difficulty & user options)
+•	Can fire at target block following specific rule
+•	Once it hits an enemy ship, it will know to shoot around the spot and continue to do so until it sinks the ship. This needs to be done in an efficient manner.
+
+
+Board
+•	Creates board of squares based on difficulty
+•	Knows if the square has been occupied
+•	Knows if it has been hit or not
+•	Has image based on what is in the square (empty, empty but hit, piece of ship, piece of 
+•	ship that has been hit)(This is hard, we can put image layer by layer. Sea - Ships - Fire - Fog, )
+
+
+Ship
+•	Knows what type of ship it is 
+•	Knows how many squares it takes up
+•	Has direction
+•	Has position of its head
+
+
+Graphics
+•	Draws the window
+•	Draws the board
+•	Displays the options
+•	Displays messages
+•	Creates image for a square
+•	Draws a cursor for user selections (?)
+
+
+Battleship 
+•	Overall Structure of the game
+•	Calls the methods from other classes
+•	Runs the game
+•	Checks if square has already been hit
+•	Check for invalid input
+
+
+Companion Test Classes
+•	Testing for bugs

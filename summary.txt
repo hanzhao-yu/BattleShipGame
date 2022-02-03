@@ -1,0 +1,31 @@
+Team Members: 
+Jorge Corrales
+Hanzhao Yu
+Holland Delany
+
+
+Project:
+Battleship Game
+
+
+Description: 
+Play against the computer in battleship combat; your objective is to sink the computer's fleet before it sinks yours.
+Play via a window created with the Java Swing Graphical User Interface. 
+You have the option to option to Exit, Restart, and Unhide Ships in the easily-acessible menu.
+Try the several modes of gameplay, including:
+
+	STANDARD:  Standard gameplay.
+	SHIPS ON THE RUN (EXTREME):  Ships will move and recover if you take too long to sink them!
+	BOMBS AWAY!:  Sink entire ships with one hit by using a bomb!
+	RAPID FIRE:  The number of hits per turn is equal to the number of ships that the opponent has remaining. 
+	LUCKY SHOT:  If you missed several shots in a row, the computer will help you find a target.
+
+
+Work Breakdown:
+	Jorge Corrales: Project Organization, Documentation
+	Hanzhao Yu: Game Functionality, Computer Algorithms
+	Holland Delany: Visual Design, JUnit Tests, Project Organization
+
+
+GitHub Repository:
+https://github.com/cit-591/final-project-summer-2019-team-k.git
